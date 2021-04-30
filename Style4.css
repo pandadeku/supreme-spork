@@ -1,0 +1,220 @@
+body{
+    background: #262626;
+}
+.block3 {
+    background-image: url("image/fon2.jpg");
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1275px;
+    height: 800px;
+}
+.container {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    width: 600px;
+    height: 400px;
+    background-image: url("image/pc7.jpg");
+    outline: 5px solid red;
+    border: 5px solid black;
+    display: inline-block;
+}
+.sh1 {
+    position: absolute;
+    top: 90px;
+    right: 125px;
+    width: 500px;
+    height: 35px;
+    background: white;
+    color: #4169E1;
+    border-spacing: 1px;
+}
+.sh3 {
+    position: absolute;
+    top: 285px;
+    right: 325px;
+    width: 100px;
+    height: 35px;
+    background: white;
+    color: #4169E1;
+    border-spacing: 1px;
+}
+.sh4 {
+    position: absolute;
+    top: 321px;
+    right: 310px;
+    width: 130px;
+    height: 40px;
+    background: white;
+    color: #4169E1;
+    border-spacing: 1px;
+    font-size: 25px;
+}
+td, th {
+    background: #262626; /
+padding: 5px; /
+}
+.sh2 {
+    position: absolute;
+    top: 150px;
+    right: 125px;
+    width: 500px;
+    height: 70px;
+    background: white;
+    color: #4169E1;
+    border-spacing: 1px;
+}
+.кнопка-назад a {
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #800080;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.кнопка-назад a:hover {
+    box-shadow: 0 0 10px #4169E1, 0 0 40px #4169E1, 0 0 60px #4169E1;
+    background-color: #4169E1;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+.кнопка-назад1 a {
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #800080;
+    position: absolute;
+    left: 70px;
+    bottom: 30px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.кнопка-назад1 a:hover {
+    box-shadow: 0 0 10px #4169E1, 0 0 40px #4169E1, 0 0 60px #4169E1;
+    background-color: #4169E1;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+.кнопка a {
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #800080;
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.кнопка a:hover {
+    box-shadow: 0 0 10px #4169E1, 0 0 40px #4169E1, 0 0 60px #4169E1;
+    background-color: #4169E1;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+.buy a {
+    position: relative;
+    top: 410px;
+    left: 65%;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    background: rgb(128, 0, 128, 0.5);
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 50px;
+    letter-spacing: 5px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.button__line{
+    position: absolute;
+    display: block;
+}
+.button__line--top{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #4169E1);
+}
+.button:hover .button__line--top {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.button__line--bottom{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, transparent,#4169E1 );
+}
+.button:hover .button__line--bottom {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.button__line--left{
+    bottom: -100%;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #4169E1);
+}
+.button:hover .button__line--left {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+.button__line--right {
+    top: -100%;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #4169E1);
+}
+.button:hover .button__line--right {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+.button:hover {
+    box-shadow: 0 0 10px #4169E1, 0 0 40px #4169E1, 0 0 60px #4169E1;
+    background-color: #4169E1;
+    color: aliceblue;
+    transition-delay: 1s;
+    border: 1px solid blue;
+    padding: 10px;
+}
+p1 {
+    position: absolute;
+    top: 390px;
+    left: 62%;
+    color: white;
+    background: rgb(56, 105, 163, 0.5);
+    border-radius: 5px;
+}
+.block2 {
+    position: absolute;
+    width: 1275px;
+    height: 120px;
+    top: 690px;
+    background: rgb(65, 105, 225, 0.5);
+}
+p5 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+}

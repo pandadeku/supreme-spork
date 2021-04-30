@@ -1,0 +1,315 @@
+body{
+    background: #262626;
+}
+.block1 {
+    background-image: url("image/fon1.jpg");
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1275px;
+    height: 800px;
+}
+.block2 {
+    position: absolute;
+    width: 1275px;
+    height: 120px;
+    top: 690px;
+    background: rgb(65, 105, 225, 0.5);
+}
+.pc1 {
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    width: 300px;
+    height: 500px;
+    background: aliceblue;
+    outline: 3px solid blue;
+    border: 10px solid #fff;
+    display: inline-block;
+}
+
+h1{
+    position: absolute;
+    font-size: 25px;
+    top: 240px;
+    left: 150px;
+    border: 1px solid black;
+    padding: 10px;
+}
+p1{
+    font-size: 25px;
+}
+h2{
+    position: absolute;
+    font-size: 25px;
+    left: 150px;
+    top: 235px;
+    border: 1px solid black;
+    padding: 10px;
+}
+p2{
+    font-size: 25px;
+}
+
+h3{
+    position: absolute;
+    font-size: 25px;
+    left: 160px;
+    top: 230px;
+    border: 1px solid black;
+    padding: 10px;
+}
+p3{
+    font-size: 22px;
+
+}
+.pc2 {
+    position: absolute;
+    left: 525px;
+    top: 100px;
+    width: 300px;
+    height: 500px;
+    background: aliceblue;
+    outline: 3px solid #800080;
+    border: 10px solid #fff;
+    display: inline-block;
+}
+.pc3 {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    width: 300px;
+    height: 500px;
+    background: aliceblue;
+    outline: 3px solid blue;
+    border: 10px solid #fff;
+    display: inline-block;
+}
+#search-form {
+    width: 450px;
+    height: 30px;
+    position: relative;
+    left: 29%;
+    top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #262626;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}
+.container-form button {
+    position: relative;
+    left: 29%;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+p4 {
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    font-size: 20px;
+}
+p5 {
+    position: absolute;
+    top: 330px;
+    left: 10px;
+    font-size: 20px;
+}
+p6 {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 20px;
+}
+p7 {
+    position: absolute;
+    top: 370px;
+    left: 10px;
+    font-size: 20px;
+}
+p8 {
+    position: absolute;
+    top: 390px;
+    left: 10px;
+    font-size: 20px;
+}
+p9 {
+    position: absolute;
+    top: 410px;
+    left: 10px;
+    font-size: 20px;
+}
+p10 {
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    font-size: 20px;
+}
+p11 {
+    position: absolute;
+    top: 330px;
+    left: 10px;
+    font-size: 20px;
+}
+p12{
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 20px;
+}
+p13 {
+    position: absolute;
+    top: 370px;
+    left: 10px;
+    font-size: 20px;
+}
+p14 {
+    position: absolute;
+    top: 390px;
+    left: 10px;
+    font-size: 20px;
+}
+p15 {
+    position: absolute;
+    top: 410px;
+    left: 10px;
+    font-size: 20px;
+}
+p16 {
+    position: absolute;
+    top: 310px;
+    left: 10px;
+    font-size: 20px;
+}
+p17 {
+    position: absolute;
+    top: 330px;
+    left: 10px;
+    font-size: 20px;
+}
+p18 {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-size: 20px;
+}
+p19 {
+    position: absolute;
+    top: 370px;
+    left: 10px;
+    font-size: 20px;
+}
+p20 {
+    position: absolute;
+    top: 390px;
+    left: 10px;
+    font-size: 20px;
+}
+p21 {
+    position: absolute;
+    top: 410px;
+    left: 10px;
+    font-size: 20px;
+}
+p22 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 15px;
+    color: white;
+}
+.кнопка a {
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #800080;
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.кнопка a:hover {
+    box-shadow: 0 0 10px #4169E1, 0 0 40px #4169E1, 0 0 60px #4169E1;
+    background-color: #4169E1;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+.кнопка-назад a {
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #800080;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.кнопка-назад a:hover {
+    box-shadow: 0 0 10px #4169E1, 0 0 40px #4169E1, 0 0 60px #4169E1;
+    background-color: #4169E1;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+.купить1 a {
+    font-size: 25px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #4169E1;
+    position: absolute;
+    right: 85px;
+    top: 445px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.купить1 a:hover {
+    box-shadow: 0 0 10px #800080, 0 0 40px #800080, 0 0 60px #800080;
+    background-color: #800080;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+.купить2 a {
+    font-size: 25px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #4169E1;
+    position: absolute;
+    right: 85px;
+    top: 445px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.купить2 a:hover {
+    box-shadow: 0 0 10px #800080, 0 0 40px #800080, 0 0 60px #800080;
+    background-color: #800080;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+.купить3 a {
+    font-size: 25px;
+    font-family: monospace;
+    text-decoration: none;
+    background: #4169E1;
+    position: absolute;
+    right: 85px;
+    top: 445px;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 10px
+}
+.купить3 a:hover {
+    box-shadow: 0 0 10px #800080, 0 0 40px #800080, 0 0 60px #800080;
+    background-color: #800080;
+    color: aliceblue;
+    transition-delay: 0s;
+}
+
